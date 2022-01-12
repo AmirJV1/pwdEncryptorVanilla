@@ -103,3 +103,8 @@ button {
 	color: black;
 	font-weight: 800;
 }
+@media (max-width: 600px) {
+      .formCont div {
+             flex-direction:column;
+               }
+}
