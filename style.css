@@ -104,7 +104,33 @@ button {
 	font-weight: 800;
 }
 @media (max-width: 600px) {
-      .formCont div {
-             flex-direction:column;
-               }
+	.formCont div {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		width: 90vw;
+		min-height: 30vh;
+		margin: 15px;
+	}
+	h1{
+		margin-bottom: 50px;
+	}
+	.decInput,
+	.encInput,
+	.decOutput,
+	.encOutput {
+		min-width: 90vw;
+	}
+	.mainCont {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		align-content: center;
+		justify-content: center;
+		min-width: 100vw;
+	}
+	button {
+		min-width: 50vw;
+		margin: 10px;
+	}
 }
