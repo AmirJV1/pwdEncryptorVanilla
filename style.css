@@ -142,4 +142,14 @@ button {
 		min-width: 50vw;
 		margin: 10px;
 	}
+	.alert{
+		top: 50vh;
+		left: 0;
+		right: 0;
+	}
+	.alert,
+	.alert2 {
+		min-width: 100vw;
+		min-height: 27vh;
+	}
 }
