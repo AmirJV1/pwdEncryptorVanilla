@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Password encryptor ">
+    <title>Password Encryptor - Crypto.Js</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="mainCont">
+        <h1>Password Encryptor!</h1>
+        <div class="formCont">
+            <i class="alert">Copied to Clipboard!</i>
+            <div>
+                <input class="encInput" type="text" placeholder="Enter your password!">
+                <button class="SubmitBtn">Encrypt!</button>
+            </div>
+            <div>
+                <input class="encOutput" type="text" readonly value="Encrypted password here">
+                <button class="copyEnc1">Copy!</button>
+            </div>
+        </div>
+        <h1>Password Decryptor!</h1>
+        <div class="formCont">
+            <i class="alert2">Copied to Clipboard!</i>
+            <div>
+                <input class="decInput" type="text" placeholder="Enter your encrypted password!">
+                <button class="decSubmitBtn">Decrypt!</button>
+            </div>
+            <div>
+                <input class="decOutput" type="text" readonly value="Encrypted password here">
+                <button class="copyEnc2">Copy!</button>
+            </div>
+        </div>
+    </div>
+    <script src="./helpers/enc.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>
