@@ -103,7 +103,22 @@ button {
 	color: black;
 	font-weight: 800;
 }
+.secretHold{
+	margin:20px;
+	display: flex;
+	flex-direction: column;
+}
+.secretHold i{
+	color: rgb(0, 255, 0);
+}
+.secret{
+	
+	text-align: center;
+}
 @media (max-width: 800px) {
+	.secret{
+		width: 90vw;
+	}
 	* {
 		flex-shrink: 0;
 	}
